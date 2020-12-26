@@ -1,0 +1,21 @@
+{
+  "name": "joe-stuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/App.jsx",
+  "scripts": {
+    "start": "webpack-dev-server --port 3030 --targetType dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "ts-loader": "^8.0.12",
+    "webpack": "^5.11.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
